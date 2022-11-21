@@ -29,6 +29,6 @@ jobs:
           username: ${{ secrets.USERNAME }}
           server: ${{ secrets.HOST }}
           ssh_private_key: ${{ secrets.KEY }}
-          local_path: "./*"
+          local_path: "./hi/*"
           remote_path: "/var/www/fend"
           sftpArgs: "-o ConnectTimeout=50"
